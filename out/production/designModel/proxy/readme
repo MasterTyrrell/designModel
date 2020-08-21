@@ -1,0 +1,8 @@
+/**
+ * 静态桩使用
+ *
+ * 1.rmic MyRemoteImpl 生成_sub后缀的桩
+ * 2.rmiregistry 启动注册库
+ * 3.启动MyRemoteImpl主方法
+ * 4.启动MyRemoteClient客户端启动服务端
+ */
